@@ -1,8 +1,7 @@
 ﻿using System;
 namespace MindBoxTask.Shapes
 {
-    public class Triangle : IShape
-    {
+    public class Triangle : ITriangle { 
         private readonly int _sideOne;
         private readonly int _sideTwo;
         private readonly int _sideThree;

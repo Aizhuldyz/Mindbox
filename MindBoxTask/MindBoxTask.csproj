@@ -38,5 +38,8 @@
   <ItemGroup>
     <Folder Include="Shapes\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Query.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

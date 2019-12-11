@@ -33,5 +33,12 @@ namespace MindBoxTask.Tests
             var shape = new Circle(3);
             Assert.AreEqual(Math.Round(shape.CalculateArea(), 2), 28.27);
         }
+
+        [Test()]
+        public void TriangleAreaShouldBeCorrect_2()
+        {
+            var shape = new Triangle(3, 7, 8);
+            Assert.AreEqual(Math.Round(shape.CalculateArea(), 3), 10.392);
+        }
     }
 }
